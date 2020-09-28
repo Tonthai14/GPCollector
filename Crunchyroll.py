@@ -50,11 +50,11 @@ def lookforpass(page, driver):
     rand_sleep()
     
     username = driver.find_element_by_id("login_form_name")
-    username.send_keys("Tonthai")
+    username.send_keys("Username")
     rand_sleep()
     
     password = driver.find_element_by_id("login_form_password")
-    password.send_keys("pikachu")
+    password.send_keys("Password")
     rand_sleep()
     
     confirm = driver.find_element_by_id("login_submit_button")
